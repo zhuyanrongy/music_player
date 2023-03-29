@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3977638 */
+  src: url('iconfont.woff2?t=1680003505346') format('woff2'),
+       url('iconfont.woff?t=1680003505346') format('woff'),
+       url('iconfont.ttf?t=1680003505346') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xihuan1:before {
+  content: "\e60e";
+}
+
+.icon-xihuan:before {
+  content: "\e86f";
+}
+
+.icon-aixin:before {
+  content: "\e8ab";
+}
+
+.icon-bofang2:before {
+  content: "\e6ad";
+}
+
+.icon-bofang3:before {
+  content: "\e606";
+}
+
+.icon-bofang4:before {
+  content: "\e617";
+}
+
+.icon-bofang02-mianxing:before {
+  content: "\e68d";
+}
+
+.icon-bofang02-xianxing:before {
+  content: "\e68e";
+}
+
+.icon-musiclist:before {
+  content: "\e69c";
+}
+
+.icon-bofanggedan:before {
+  content: "\e6be";
+}
+
+.icon-music-list:before {
+  content: "\e699";
+}
+
+.icon-bofang1:before {
+  content: "\e610";
+}
+
+.icon-weibiaoti--:before {
+  content: "\e60f";
+}
+
+.icon-xunhuanbofang:before {
+  content: "\e66c";
+}
+
+.icon-danquxunhuan:before {
+  content: "\e66d";
+}
+
+.icon-zuihouyiyemoyexiayishou:before {
+  content: "\e76d";
+}
+
+.icon-diyiyeshouyeshangyishou:before {
+  content: "\e76e";
+}
+
+.icon-24gf-playlistMusic5:before {
+  content: "\ea87";
+}
+
+.icon-arrow-:before {
+  content: "\e626";
+}
+
+.icon-bofang:before {
+  content: "\e607";
+}
+
+.icon-suijibofang:before {
+  content: "\e604";
+}
+

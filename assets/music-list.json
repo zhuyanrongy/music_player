@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0",
+    "title": "Ghosts",
+    "author": "BANNERS",
+    "albumn": "I hear voices",
+    "lyric": "Ghosts - Banners.json",
+    "url": "Ghosts-Banners.mp3",
+    "cover": "Ghosts-Banners.JPG"
+  },
+  {
+    "id": "1",
+    "title": "Comforting Sounds",
+    "author": "Mew",
+    "albumn": "I don't feel alright",
+    "lyric": "Comforting Sounds - Mew.json",
+    "url": "Comforting Sounds - Mew.mp3",
+    "cover": "Comforting Sounds - Mew.JPG"
+  },
+  {
+    "id": "2",
+    "title": "Trouble I'm In",
+    "author": "Twinbed",
+    "albumn": "I wanna feel your touch",
+    "lyric": "Trouble I'm In - Twinbed.json",
+    "url": "Trouble I'm In - Twinbed.mp3",
+    "cover": "Trouble I'm In - Twinbed.webp"
+  }
+]
