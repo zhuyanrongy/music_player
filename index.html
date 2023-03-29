@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>简易播放器</title>
+    <script
+        src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_24449_2.4d94f0e8513d3a5aee0702a583113a2e.js"></script>
+    <title>简易音乐播放器</title>
     <style>
         * {
             margin: 0;
@@ -128,7 +130,6 @@
         }
 
 
-
         .player .panel .control .icon.hide {
             display: none;
         }
@@ -162,9 +163,11 @@
             background-color: #a3a3a3;
 
         }
+
         .control .icon_dislike {
             display: none;
         }
+
         .icon_nomal,
         .icon_random,
         .icon_circle {
@@ -539,14 +542,22 @@
             e.stopPropagation();
         }
 
-        $lis.forEach((item, index) => {
-            item.classList.remove('current')
-            item.onclick = function () {
-                item.classList.add('current')
-                setCurrentAudio(index)
-                isPlaying()
-            }
-        })
+        $listBd.onclick = function (e) {
+            $lis.forEach(item => item.classList.remove('current'))
+            e.target.classList.add('current')
+            index = e.target.getAttribute('date-index')
+            setCurrentAudio(index)
+            isPlaying()
+        }
+
+        // $lis.forEach((item, index) => {
+        //     item.classList.remove('current')
+        //     item.onclick = function () {
+        //         item.classList.add('current')
+        //         setCurrentAudio(index)
+        //         isPlaying()
+        //     }
+        // })
         //点击小爱心切换为喜欢
         $iconDislike.onclick = function () {
             this.classList.add('hide')
